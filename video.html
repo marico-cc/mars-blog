@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video</title>
+</head>
+<body>
+</body>
+<script>
+    const searchParams = new URLSearchParams(decodeURIComponent(window.location.search));
+    const url = searchParams.get('url');
+    if(url){
+        const video = document.createElement('video');
+        video.src = url;
+        video.controls = true;
+        video.style.maxWidth = '100%';
+        video.style.maxHeight = '100%';
+        video.style.objectFit = 'contain';
+        video.style.objectPosition = 'center';
+        video.style.display = 'block';
+        video.style.margin = '0 auto';
+        document.body.appendChild(video);
+    } else{
+        const  div = document.createElement('div');
+        div.innerText = 'no video yet';
+        document.body.appendChild(div);
+    }
+
+</script>
+</html>

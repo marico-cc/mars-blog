@@ -1,0 +1,154 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply m-0 h-screen w-screen;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(217, 217, 217, 1);
+}
+
+.text-1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.text-2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.text-3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.text-4 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.text-5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-7 {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.text-8 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.text-9 {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.text-10 {
+  font-size: 8px;
+  line-height: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.header-tabs .ant-tabs-nav {
+  @apply mb-[-1px] border-0 text-white;
+}
+.header-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn,
+.header-tabs .ant-tabs .ant-tabs-tab .ant-tabs-tab-remove .anticon {
+  @apply !text-white;
+}
+
+.header-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,
+.header-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-remove .anticon {
+  @apply !text-black;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-add {
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  cursor: default;
+}
+
+#basic_content .ql-container {
+  position: relative;
+}
+.quill.marico .ql-editor,
+.ql-editor-container .ql-editor {
+  @apply bg-white;
+  min-height: 200px;
+  max-height: 500px;
+}
+.quill.marico .ql-editor img,
+.quill.marico .ql-editor video,
+.quill.marico .ql-editor .ql-video,
+.ql-editor-container .ql-editor img,
+.ql-editor-container .ql-editor video,
+.ql-editor-container .ql-editor .ql-video {
+  max-width: 75% !important;
+  display: block;
+  margin: 16px auto;
+}
+
+.quill.marico .ql-editor .ql-video {
+  max-width: 75% !important;
+  max-height: 700px !important;
+  min-height: 400px !important;
+  margin: 16px auto;
+}
+
+.quill.min-h-\[400px\] .ql-editor {
+  min-height: 400px;
+  max-height: 600px;
+}
+.ql-tooltip.ql-editing {
+  margin-top: 0 !important;
+  font-size: 16px;
+
+  width: 520px;
+  left: 8px !important;
+  top: 0 !important;
+}
+.ql-snow .ql-tooltip input[type='text'] {
+  width: 340px;
+  height: 48px;
+}
+
+.cms-article .cms-article-content {
+  text-indent: 2em;
+}
+.cms-article .cms-article-content img,
+.cms-article .cms-article-content .ql-video {
+  max-width: 60%;
+  display: block;
+  margin: 16px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.ant-table-content table td {
+  word-break: break-all;
+  white-space: normal;
+}

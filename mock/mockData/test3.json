@@ -1,0 +1,282 @@
+{
+  "data": {
+    "users": [
+      {
+        "has_logged_in": true,
+        "__typename": "users"
+      }
+    ],
+    "user_roles": [
+      {
+        "role_id": "SUPER_ADMIN",
+        "__typename": "user_roles"
+      },
+      {
+        "role_id": "USER",
+        "__typename": "user_roles"
+      }
+    ],
+    "user_permissions": [
+      {
+        "permission_target_value": "PAGE_ANALYTICS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_APPEARANCE_PREFERENCES",
+        "permission_type_value": "NO_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_CLONE_PRODUCT_LISTINGS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_INVENTORIES",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_LISTING_PRICE",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_LISTING_STOCK_BUFFER",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_PRODUCT_BUNDLES",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_BULK_OPERATIONS_PRODUCT_LISTINGS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_CATALOGUES",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_CHANNELS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_COMPETITORS_PRODUCT",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_COMPETITORS_STORE",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_CUSTOMERS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_GENERAL_PREFERENCES",
+        "permission_type_value": "NO_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_INVENTORIES",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_OPS_DASHBOARD",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_ORDERS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_ORDER_DETAILS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_PREFERENCES",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_PROMOTIONS",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_SHOPEE_AUTOBOOST",
+        "permission_type_value": "FULL_ACCESS",
+        "__typename": "user_permissions"
+      },
+      {
+        "permission_target_value": "PAGE_USERS_PREFERENCES",
+        "permission_type_value": "NO_ACCESS",
+        "__typename": "user_permissions"
+      }
+    ],
+    "preset_permission_targets": [
+      {
+        "value": "PAGE_INVENTORIES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SHOPEE_AUTOBOOST",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_PROMOTIONS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_COMPETITORS_PRODUCT",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_COMPETITORS_STORE",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_ANALYTICS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_CUSTOMERS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_CHANNELS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_USERS_PREFERENCES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_ORDER_DETAILS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_CATALOGUES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_ORDERS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_GENERAL_PREFERENCES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_PREFERENCES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_OPS_DASHBOARD",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_APPEARANCE_PREFERENCES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SELLERWIZARD_FINANCE",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SELLERWIZARD_OPS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SELLERWIZARD_INVENTORY",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SELLERWIZARD_SALES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_CLONE_PRODUCT_LISTINGS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_INVENTORIES_STOCK",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_OVERVIEW",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_INVENTORY_STOCK",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_INVENTORIES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_LISTING_PRICE",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_LISTING_STOCK_BUFFER",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_PRODUCT_BUNDLES",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_PRODUCT_LISTINGS",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_SELLERWIZARD_SUMMARY",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_BULK_OPERATIONS_MANUAL_ORDERS_CREATION",
+        "__typename": "preset_permission_targets"
+      },
+      {
+        "value": "PAGE_DATA_MONITORING_PREFERENCES",
+        "__typename": "preset_permission_targets"
+      }
+    ],
+    "organisations": [
+      {
+        "id": "fe50b9dd-bbe5-42be-b101-a710b10d83d0",
+        "name": "Sellercraft test",
+        "account_mode_value": "OMS",
+        "oms_activation_date": "2022-08-17",
+        "__typename": "organisations"
+      }
+    ]
+  },
+  "loading": false,
+  "networkStatus": 7
+}
