@@ -1,4 +1,6 @@
-# English School CMS
+# A blog admin for Marico
+
+blog url： [www.marico.cc](https://www.marico.cc?f=github)
 
 Some functions are hidden as preparation for phase 2 release.
 
